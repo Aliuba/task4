@@ -1,0 +1,103 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    header {
+        background-color: transparent;
+        box-sizing: border-box;
+    }
+    
+    .header-top {
+        padding-left: 400px;
+        padding-right: 400px;
+        height: 40px;
+    }
+    
+    .header-bottom {
+        padding-left: 300px;
+        padding-right: 300px;
+        height: 40px;
+    }
+    
+    .header-bottom .nav_item a {
+        font-size: 15px;
+    }
+    
+    .header_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    
+    .nav_item a {
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #292929;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    
+    .header-title {
+        display: flex;
+        justify-content: space-between;
+        height: 87px;
+        padding: 15px 0 0 12px;
+        background-color: #632222;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    a {
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    
+    .icon-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 150px;
+    }
+    
+    .img-icon {
+        padding-top: 5px;
+    }
+    
+    .top-options {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+    }
+    
+    .top-options button {
+        font-weight: bold;
+        font-size: 10px;
+        height: 36px;
+        color: #f3eced;
+        border: 3px solid #eef1f3;
+        box-sizing: border-box;
+        border-radius: 20px;
+        background-color: #b30c1d;
+        cursor: pointer;
+        top: -8px;
+        width: 80px;
+    }
+    
+    .top-options button:hover {
+        transition: .7s;
+        box-shadow: inset 4px 4px 3px;
+    }
+    
+    .title span {
+        font-size: 36px;
+    }
